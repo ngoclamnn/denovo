@@ -1,2 +1,7 @@
 
 .vs/Denovo.Web/v15/.suo
+*.dll
+*.pdb
+/Denovo.Web/bin
+/Denovo.Web/obj/Debug
+/packages
