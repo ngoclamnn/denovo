@@ -1,0 +1,32 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Landing Page - Start Bootstrap Theme</title>
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="~/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="~/Content/landing-page.css" rel="stylesheet" />
+</head>
+<body>
+   @Html.Partial("_Navigation")
+    <!-- Masthead -->
+
+    @RenderBody()
+    @Html.Partial("_Footer")
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <script src="~/Scripts/umd/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
