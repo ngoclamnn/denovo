@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denovo.Web", "Denovo.Web\Denovo.Web.csproj", "{29C6581F-0087-4DB4-9B48-C684F36E6781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denovo.React.Web", "Denovo.React.Web\Denovo.React.Web.csproj", "{3E41E07D-4D52-469C-80F2-B1C534B5585E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{29C6581F-0087-4DB4-9B48-C684F36E6781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C6581F-0087-4DB4-9B48-C684F36E6781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C6581F-0087-4DB4-9B48-C684F36E6781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E41E07D-4D52-469C-80F2-B1C534B5585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E41E07D-4D52-469C-80F2-B1C534B5585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E41E07D-4D52-469C-80F2-B1C534B5585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E41E07D-4D52-469C-80F2-B1C534B5585E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E448BA4E-66DF-4A38-A990-5AF416D19A59}
 	EndGlobalSection
 EndGlobal
